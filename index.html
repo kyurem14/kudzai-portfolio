@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kudzai Nyamapfumba | Operations &amp; Data Analyst</title>
+<style>
+:root{--bg:#fafbfc;--card:#fff;--ink:#17202a;--mut:#5b6673;--acc:#1f3a5f;--acc2:#2f6fb0;--line:#dfe4ea;--bar:#2f6fb0;--hi:#e0662f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141a;--card:#171e26;--ink:#e8edf2;--mut:#98a4b1;--acc:#9cc2ee;--acc2:#6aa6e6;--line:#27313c;--bar:#4f8fd6;--hi:#f08a54;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f141a;--card:#171e26;--ink:#e8edf2;--mut:#98a4b1;--acc:#9cc2ee;--acc2:#6aa6e6;--line:#27313c;--bar:#4f8fd6;--hi:#f08a54;color-scheme:dark}
+html{scroll-padding-top:64px;scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+a{color:var(--acc2);text-decoration:none}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:18px;align-items:center;height:52px;overflow-x:auto;white-space:nowrap}
+nav b{color:var(--acc);margin-right:auto}
+nav a{color:var(--mut);font-size:14px}
+header{padding:64px 0 40px}
+.eyebrow{color:var(--acc2);font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+h1{font-size:clamp(32px,6vw,48px);line-height:1.1;margin:8px 0 12px;color:var(--acc)}
+.lead{font-size:19px;color:var(--mut);max-width:640px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.btn{padding:10px 18px;border-radius:8px;border:1px solid var(--acc);color:var(--acc);font-weight:600;font-size:15px}
+.btn.p{background:var(--acc);color:var(--bg)}
+section{padding:36px 0;border-top:1px solid var(--line)}
+h2{font-size:24px;margin:0 0 18px;color:var(--acc)}
+h3{font-size:18px;margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.stat b{display:block;font-size:26px;color:var(--acc)}
+.stat span{font-size:13px;color:var(--mut)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;margin-bottom:16px}
+.tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:99px;padding:2px 10px;margin:8px 6px 0 0;color:var(--mut)}
+.meta{color:var(--mut);font-size:14px}
+ul{padding-left:20px;margin:10px 0 0}li{margin:4px 0}
+.chart{display:flex;align-items:flex-end;gap:6px;height:170px;margin-top:14px;padding-top:20px}
+.chart div{flex:1;background:var(--bar);border-radius:4px 4px 0 0;position:relative;min-width:0}
+.chart div.hi{background:var(--hi)}
+.chart div i{position:absolute;top:-17px;left:50%;transform:translateX(-50%);font:11px/1 sans-serif;color:var(--mut);font-style:normal}
+.lbl{display:flex;gap:6px;font-size:11px;color:var(--mut)}.lbl span{flex:1;text-align:center}
+.job{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+footer{padding:30px 0 50px;color:var(--mut);font-size:14px;text-align:center}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>Kudzai N.</b><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav>
+<div class="wrap">
+<header>
+<div class="eyebrow">Operations &amp; Data Analyst · Houston, TX</div>
+<h1>Kudzai Charles Nyamapfumba</h1>
+<p class="lead">I turn messy operational data into clear dashboards and better decisions. B.S. in Information Technology and Systems from UT Dallas, with experience in retail analytics, property technology, and AI-driven research.</p>
+<div class="btns"><a class="btn p" href="mailto:nyamazkudzai@gmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/kudzai-nyamaz">LinkedIn</a><a class="btn" href="#projects">View projects</a></div>
+</header>
+
+<section id="projects">
+<h2>Featured projects</h2>
+<div class="card">
+<h3>2020 US Traffic Accidents Analysis</h3>
+<div class="meta">Tableau · 2M+ record dataset · 10 insights · 2 dashboards</div>
+<p>Cleaned a large, inconsistent public dataset and narrowed it to the variables that mattered (light, region, time, weather, collision type), then chose a small set of clear charts so viewers could act on the findings instead of getting lost in them.</p>
+<div class="stats">
+<div class="stat"><b>54,745</b><span>accidents analyzed</span></div>
+<div class="stat"><b>Oct</b><span>peak month (6,206)</span></div>
+<div class="stat"><b>5 PM</b><span>busiest hour of the day</span></div>
+<div class="stat"><b>South</b><span>highest-crash region</span></div>
+</div>
+<strong style="font-size:14px">Accidents by month, 2020</strong>
+<div class="chart" role="img" aria-label="Bar chart of 2020 accidents by month, peaking in October at 6,206 and lowest in April at 2,097">
+<div style="height:67%"><i>4.2K</i></div><div style="height:64%"><i>4.0K</i></div><div style="height:53%"><i>3.3K</i></div><div style="height:34%"><i>2.1K</i></div><div style="height:54%"><i>3.4K</i></div><div style="height:76%"><i>4.7K</i></div><div style="height:86%"><i>5.3K</i></div><div style="height:90%"><i>5.6K</i></div><div style="height:90%"><i>5.6K</i></div><div class="hi" style="height:100%"><i>6.2K</i></div><div style="height:87%"><i>5.4K</i></div><div style="height:80%"><i>5.0K</i></div>
+</div>
+<div class="lbl"><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span></div>
+<ul>
+<li>Accidents fell sharply in April, then climbed through the summer and peaked in October.</li>
+<li>Most crashes happened in clear weather and on the roadway itself; crash counts rose through the afternoon to a 5 PM peak.</li>
+<li>Crashes still occurred in construction, maintenance, and utility work zones, which points to a need for better safety measures there.</li>
+</ul>
+<span class="tag">Tableau</span><span class="tag">Data cleaning</span><span class="tag">Dashboard design</span><span class="tag">Data storytelling</span>
+<p class="meta" style="margin-top:14px">Data: <a href="https://www.kaggle.com/datasets/jonbown/us-2020-traffic-accidents">US 2020 Traffic Accidents (Kaggle)</a></p>
+</div>
+
+<div class="card">
+<h3>Excel Portfolio Tracker</h3>
+<div class="meta">Microsoft Excel · formulas · summary reporting</div>
+<p>A multi-sheet workbook that logs each purchase (date, shares, buy price, account type, notes) and automatically calculates total invested, current value, and gain/loss in dollars and percent, with a Summary sheet that rolls everything up. It's a small example of how I structure data for tracking and reporting.</p>
+<span class="tag">Excel</span><span class="tag">Formulas</span><span class="tag">KPI tracking</span>
+</div>
+
+<div class="card">
+<h3>Competitive Intelligence Platform (GenAI Ventures)</h3>
+<div class="meta">Team lead · 12-week delivery · Python, APIs, dashboards</div>
+<p>Led a team of 4 to build a generative AI platform that benchmarked 25+ competitors across 3 industries. Automated collection from 50+ sources, cutting manual research time by 60%, and added predictive models that improved strategic response time by 30%.</p>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="card"><div class="job"><h3>Operations &amp; Business Development Specialist</h3><span class="meta">Oct 2026 – Present</span></div><div class="meta">Nestling Nurse LLC · Remote</div>
+<ul><li>Administer 3 business platforms (HoneyBook, QuickBooks, Claude AI) for onboarding, client management, and invoicing.</li><li>Standardized 2 core contract workflows for client agreements and caregiver onboarding.</li></ul></div>
+<div class="card"><div class="job"><h3>Flooring Specialist</h3><span class="meta">Jun 2025 – Present</span></div><div class="meta">The Home Depot · Katy, TX</div>
+<ul><li>Analyzed 150+ SKUs with Pivot Tables and XLOOKUP; identified the lowest 20% of SKUs by revenue and cut stagnant inventory by 12% in two quarters.</li><li>Built Excel KPI dashboards that contributed to an 8% quarter-over-quarter increase in top-performing SKU sales.</li></ul></div>
+<div class="card"><div class="job"><h3>Operations and Systems Coordinator</h3><span class="meta">Feb 2023 – May 2025</span></div><div class="meta">Balfour Beatty US · Richardson, TX</div>
+<ul><li>Managed access-control and asset-tracking systems covering 3,000+ residents and 5,000+ assets.</li><li>Scheduled 200+ weekly work orders and ran routine audits and reconciliations for data accuracy.</li></ul></div>
+<div class="card"><div class="job"><h3>Data Analyst</h3><span class="meta">Jan 2025 – May 2025</span></div><div class="meta">GenAI Ventures · Richardson, TX</div>
+<ul><li>Delivered the competitive intelligence platform above and presented results to senior leadership and external clients.</li></ul></div>
+</section>
+
+<section id="skills">
+<h2>Skills &amp; certifications</h2>
+<div class="grid2">
+<div class="card"><h3>Analytics &amp; BI</h3><p class="meta">Excel, SQL, Tableau, Power BI, Alteryx Designer, JMP, SAP ERP</p></div>
+<div class="card"><h3>Programming &amp; Cloud</h3><p class="meta">Python, Java, JavaScript, HTML, AWS</p></div>
+<div class="card"><h3>Operations</h3><p class="meta">Process improvement, KPI tracking, reporting, asset management, compliance documentation</p></div>
+<div class="card"><h3>Certifications</h3><p class="meta">AWS Certified Cloud Practitioner (2025) · Intro to Python (2024) · Intro to R (2024) · Excel Essential Training (2023)</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Let’s talk</h2>
+<p>I’m open to operations, business systems, and data analyst roles. The best way to reach me is by email.</p>
+<div class="btns"><a class="btn p" href="mailto:nyamazkudzai@gmail.com">nyamazkudzai@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/kudzai-nyamaz">linkedin.com/in/kudzai-nyamaz</a></div>
+</section>
+</div>
+<footer>© 2026 Kudzai Charles Nyamapfumba</footer>
+</body>
+</html>
